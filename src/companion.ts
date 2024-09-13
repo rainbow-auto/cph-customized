@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import http from 'http';
 import config from './config';
 import { Problem, CphSubmitResponse, CphEmptyResponse } from './types';
@@ -158,9 +159,9 @@ export const getProblemFileName = (problem: Problem, ext: string) => {
 
         const words = words_in_text(problem.name);
         if (words === null) {
-            return `${problem.name.replace(/\W+/g, '_')}.${ext}`;
+            return `${problem.name.replace(/\W+/g, '-')}.${ext}`;
         } else {
-            return `${words.join('_')}.${ext}`;
+            return `${words.join('-')}.${ext}`;
         }
     }
 };

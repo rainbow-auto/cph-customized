@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import * as vscode from 'vscode';
 import { setupCompanionServer } from './companion';
 import runTestCases from './runTestCases';
