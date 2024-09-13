@@ -1,6 +1,6 @@
 {
-    "name": "competitive-programming-helper",
-    "displayName": "Competitive Programming Helper (cph)",
+    "name": "competitive-programming-helper-customized",
+    "displayName": "Competitive Programming Helper (cph) (customized by Rainbow-Automaton)",
     "description": "Makes judging, compiling, and downloading problems for competitve programming easy. Also supports auto-submit for a few sites.",
     "license": "GPL-3.0-or-later",
     "icon": "icon.png",
